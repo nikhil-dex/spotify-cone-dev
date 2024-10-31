@@ -87,6 +87,7 @@ nav{
 }
 .icon div{
     cursor: pointer;
+    z-index: 5;
 }
 #myProgressBar{
     width: 50vw;
@@ -150,6 +151,9 @@ nav{
         border: 1px solid white;
         font-size: 13px;
         width: 90%;
+    }
+    .songInfoName{
+        margin-top: 45px;
     }
     
 }
