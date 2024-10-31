@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="resource/spotify-logo.png" alt="Spotify Logo"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Songs</h1>
+            <div class="songItem-container">
+                <!-- List of songs -->
+                <div class="songItem" id="1">
+                    <img src="covers/1.jpg" width="30px" alt="Cover for Let me Love You">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="2">
+                    <img src="covers/2.jpg" width="30px" alt="Cover for Dancin">
+                    <span class="songName">Dancin</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="3">
+                    <img src="covers/3.jpg" width="30px" alt="Cover for Kerosin">
+                    <span class="songName">Kerosin</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="4">
+                    <img src="covers/4.jpg" width="30px" alt="Cover for Faded">
+                    <span class="songName">Faded</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="5">
+                    <img src="covers/5.jpg" width="30px" alt="Cover for Suroor">
+                    <span class="songName">Suroor</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="6">
+                    <img src="covers/6.jpg" width="30px" alt="Cover for Bonafide">
+                    <span class="songName">Bonafide</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="7">
+                    <img src="covers/7.jpg" width="30px" alt="Cover for Patola">
+                    <span class="songName">Patola</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="8">
+                    <img src="covers/8.jpg" width="30px" alt="Cover for Rap God">
+                    <span class="songName">Rap God</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="9">
+                    <img src="covers/9.jpg" width="30px" alt="Cover for Song of the Dead">
+                    <span class="songName">Song of the Dead</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+                <div class="songItem" id="10">
+                    <img src="covers/10.jpg" width="30px" alt="Cover for Shape of You">
+                    <span class="songName">Shape of You</span>
+                    <span class="songListPlay"><span class="durations">05:34</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icon">
+            <div id="previous"><img src="resource/backward-circle.png" width="30px" alt="Previous Song"></div>
+            <div><i id="masterPlay" class="fa-regular fa-2x fa-circle-play"></i></div>
+            <div id="next"><img src="resource/forward-circle.png" width="30px" alt="Next Song"></div>
+        </div>
+        <div class="songInfo">
+            <img src="resource/track1.gif" width="50px" id="gif" alt="Playing Animation">
+            <p class="songInfoName"></p>
+        </div>
+        <div class="timeLeft">00:00</div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f43f3fe0dd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
